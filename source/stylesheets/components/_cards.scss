@@ -4,11 +4,12 @@
 
 .card {
   background-size: cover;
-  height: 230px;
+  min-height: 250px;
   color: white;
   position: relative;
   margin: 10px 0;
   box-shadow: 1px 1px 3px #888888;
+
 }
 
 .card-category {
@@ -21,12 +22,10 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-  h2 {
+  h2, p {
     margin: 0;
   }
-  p {
-    margin: 0;
-  }
+
 }
 
 .card-user {
